@@ -10,7 +10,7 @@ Step 03 : in web.config
 Step 04 :
     <log4net>
     <appender name="RollingFile" type="log4net.Appender.RollingFileAppender">
-      <file value="C:\Anji\MemorialHermann.Api.log" />
+      <file value="C:\Logs\log4net.MVC.Anjineyulu.Maddineni.log" />
       <appendToFile value="true" />
       <maximumFileSize value="500KB" />
       <maxSizeRollBackups value="2" />
