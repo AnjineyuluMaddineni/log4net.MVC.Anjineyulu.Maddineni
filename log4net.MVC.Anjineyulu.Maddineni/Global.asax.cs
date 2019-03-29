@@ -13,6 +13,8 @@ namespace log4net.MVC.Anjineyulu.Maddineni
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            log4net.Config.XmlConfigurator.Configure();
         }
     }
 }
